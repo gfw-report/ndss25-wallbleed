@@ -18,4 +18,4 @@ tree -L2d
 ```
 
 * [blackbox](./blackbox/) contains **the equivalent C code that reproduces the behaviors of the DNS injectors affected by Wallbleed v1 and Wallbleed v2 in all important respects.**
-* [util/is-forged-response] contains the GFW's Injector 3's forged IPv4 answer pools and IPv6 answer pools. It also contains code and Makefile that derived these files, as well as a CLI tool to determine if a DNS query's answer is in the pool.
+* [util/is-forged-response](./util/is-forged-response/) contains the GFW's Injector 3's forged IPv4 answer pools and IPv6 answer pools. It also contains code and Makefile that derived these files, as well as a CLI tool to determine if a DNS query's answer is in the pool.
